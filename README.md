@@ -1,4 +1,4 @@
-# Local-Password-Manager-
+# Python Password Manager
 
 A simple local password manager written in Python and MariaDB.  
 It uses **PBKDF2** to derive a 256-bit key from a **MASTER PASSWORD** and **DEVICE SECRET**, then applies **AES-256** for encrypting/decrypting your stored passwords.  
